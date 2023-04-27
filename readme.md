@@ -12,16 +12,18 @@ This repository contains:
 
 ## Background
 
-This project is for the CTEC3905 Front-End Web Development module at De Montfort University. It is the coursework that results in 100% of my mark for this module, worth 15 credits.
+This project was originally for the CTEC3905 Front-End Web Development module at De Montfort University. It is the coursework that results in 100% of my mark for this module, worth 15 credits.
+
+I intend to use this as a portfolio site.
 
 ## Usage
 
-This project is intened to be used for my CTEC3905 coursework.
+This project was intened to be used for my CTEC3905 coursework.
 
-It is expected to be used with the vsCode Live Server extension.
+It was expected to be used with the vsCode Live Server extension.
+
+I plan on creating a live site using Netlify.
 
 ### Contributors
 
 This project was worked on exclusively by [Liam](https://github.com/liam-m-white).
-
-I would also like to say thanks to Dr Graeme Stuart for assisting during the lab sessions.
