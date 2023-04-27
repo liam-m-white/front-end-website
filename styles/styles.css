@@ -264,6 +264,11 @@ body.dark .page-section {
   color: var(--white);
 }
 
+.red {
+  background-color: var(--red);
+  color: var(--white);
+}
+
 .flex-center {
   display: flex;
   justify-content: center;
