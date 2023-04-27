@@ -1,0 +1,146 @@
+{
+  "yearOneModules" : [
+    {
+      "title": "Computer Ethics",
+      "result": "52",
+      "term": "1",
+      "credits": "15"
+    },
+    {
+      "title": "Computer Programming I",
+      "result": 96,
+      "term": "1",
+      "credits": "15"
+    },
+    {
+      "title": "Computer Systems",
+      "result": 84,
+      "term": "1",
+      "credits": "15"
+    },
+    {
+      "title": "Mathematics for Computing",
+      "result": "80",
+      "term": "1",
+      "credits": "15"
+    },
+    {
+      "title": "Computer Law and Cyber Security",
+      "result": "80",
+      "term": "2",
+      "credits": "15"
+    },
+    {
+      "title": "Database Design and Implementation",
+      "result": "90",
+      "term": "2",
+      "credits": "15"
+    },
+    {
+      "title": "Computer Programming II",
+      "result": "99",
+      "term": "2",
+      "credits": "15"
+    },
+    {
+      "title": "Computer Networks",
+      "result": "80",
+      "term": "2",
+      "credits": "15"
+    }
+  ],
+  "yearTwoModules" : [
+    {
+      "title": "Web Application Development",
+      "result": "88",
+      "term": "1",
+      "credits": "15"
+    },
+    {
+      "title": "Software and Security Management",
+      "result": "85",
+      "term": "1",
+      "credits": "15"
+    },
+    {
+      "title": "Object Oriented Design",
+      "result": "96",
+      "term": "1",
+      "credits": "15"
+    },
+    {
+      "title": "Data Structures and Algorithms",
+      "result": "93",
+      "term": "1",
+      "credits": "15"
+    },
+    {
+      "title": "Object Oriented Development",
+      "result": "90",
+      "term": "2",
+      "credits": "15"
+    },
+    {
+      "title": "Concurrent and Parallel Algorithms",
+      "result": "96",
+      "term": "2",
+      "credits": "15"
+    },
+    {
+      "title": "Agile Team Development",
+      "result": "100",
+      "term": "2",
+      "credits": "15"
+    },
+    {
+      "title": "Introduction to Research",
+      "result": "85",
+      "term": "2",
+      "credits": "15"
+    }
+  ],
+  "yearThreeModules" : [
+    {
+      "title": "Systems Building: Methods",
+      "result": "82",
+      "term": "1",
+      "credits": "15"
+    },
+    {
+      "title": "Interaction Design",
+      "result": "83",
+      "term": "1",
+      "credits": "15"
+    },
+    {
+      "title": "Mobile Application Development",
+      "result": "70",
+      "term": "1",
+      "credits": "15"
+    },
+    {
+      "title": "Front-End Web Development",
+      "result": "Pending",
+      "term": "2",
+      "credits": "15"
+    },
+    {
+      "title": "Database Management and Programming",
+      "result": "Pending",
+      "term": "2",
+      "credits": "15"
+    },
+    {
+      "title": "Functional Software Development",
+      "result": "Pending",
+      "term": "2",
+      "credits": "15"
+    },
+    {
+      "title": "Development Project",
+      "result": "Pending",
+      "term": "1 & 2",
+      "credits": "30"
+    }
+  ]
+}

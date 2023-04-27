@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" class="delay-transition">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Liam White Portfolio</title>
+		<link rel="stylesheet" href="../styles/styles.css">
+	</head>
+
+	<body>
+
+    <button class="control to-top hidden" id="toTop" aria-label="Scroll to the top of the page">
+      &uarr;
+    </button>
+    <button class="control display hidden" id="toggleDisplayControl" aria-label="Toggle between light and dark mode">
+    </button>
+
+    <header class="header">
+      <div class="header-logo-collapse">
+        <a class="header-logo header-item" href="../index.html" aria-label="Logo. Redirect to home page">
+          {liamPortfolio};
+        </a>
+        <button class="header-item header-collapse" id="headerCollapse" aria-label="Open and close navigation menu on mobile">
+          <span class="burger-top burger"><!----></span>
+          <span class="burger-middle burger"><!----></span>
+          <span class="burger-bottom burger"><!----></span>
+        </button>
+      </div>
+      <nav class="header-items" id="headerItems">
+        <a class="header-item" href="../index.html" aria-label="Redirect to home page">Home</a>
+        <a class="header-item" href="../pages/skills.html" aria-label="Redirect to skills page">Skills</a>
+        <div class="header-item">Timeline</div>
+        <a class="header-item" href="../pages/contact.html" aria-label="Redirect to contact me page">Contact</a>
+        <button class="header-item" id="toggleDisplay" aria-label="Toggle between light and light mode"></button>
+      </nav>
+    </header>
+
+    <section role="banner" class="banner">
+      <h1>Timeline</h1>
+      <h2>What I've been up to</h2>
+    </section>
+
+    <section class="page-section">
+      <h2><span class="highlight">About</span></h2>
+      <div class="flex-section">
+        <table>
+          <thead>
+            <tr>
+              <th>Grade</th>
+              <th>Pill</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="title">First-Class Honours</td>
+              <td class="center"><span class="pill first">70%</span></td>
+            </tr>
+            <tr>
+              <td class="title">Upper Second-Class Honours</td>
+              <td class="center"><span class="pill two-one">60%</span></td>
+            </tr>
+            <tr>
+              <td class="title">Lower Second-Class Honours</td>
+              <td class="center"><span class="pill two-two">50%</span></td>
+            </tr>
+            <tr>
+              <td class="title">Upper Second-Class Honours</td>
+              <td class="center"><span class="pill third">40%</span></td>
+            </tr>
+            <tr>
+              <td class="title">Fail</td>
+              <td class="center"><span class="pill fail">&lt;40%</span></td>
+            </tr>
+            <tr>
+              <td class="title">Pending</td>
+              <td class="center"><span class="pill pending">Pending</span></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>
+          See below lists of modules I undertook across my three years at University.
+          The key to the side describes what the colours on each grade mean.
+          <br><br>
+          I also took part in a 15 month Placement Year at a business called MMT Digital,
+          and was involved in a 4 month partnership with a business during my final year.
+          These are both also detailed below.
+        </p>
+      </div>
+    </section>
+
+    <section class="page-section cadet-gray">
+      <h2><span class="highlight">De Montfort University</span></h2>
+      <h3>Year One</h3>
+      <ul id="yearOneList"></ul>
+      <h3>Year Two</h3>
+      <ul id="yearTwoList"></ul>
+    </section>
+
+    <section class="page-section slate-gray">
+      <h2 id="mmt"><span class="highlight">Placement Year</span></h2>
+      <h3>MMT Digital</h3>
+      <p>
+        During my time at University, I took a 12 month placement year at MMT Digital, where I ended up staying for 15 months and have recieved an offer to return immediately after my final year at University.
+        <br><br>
+        MMT Digital is a digital agency based in the United Kingdom, with offices in London and Midlands. The company was founded in 1999 and has grown to become one of the leading digital agencies in the UK, with a team of over 100 professionals.
+        MMT Digital provides a range of services, including website design and development, digital strategy, user experience design, and content management. They work with a diverse range of clients, from small startups to large multinational corporations, across various industries such as finance, healthcare, and retail.
+        The agency is known for its customer-centric approach to digital design and development, with a focus on creating engaging, user-friendly experiences that drive business results. MMT Digital has won several awards for its work, including the 2020 Prolific North Tech Awards for Best Digital Agency.
+        <br><br>
+        Overall, MMT Digital is a trusted and respected digital agency with a strong reputation for delivering high-quality work that meets the needs of its clients.
+        <br><br>
+        During my 15 months at MMT, I was employed as an <span class="highlight">Associate Software Engineer</span>. In this time, I was on the <span class="highlight">Translink</span> account. Translink are the providers of public transport for Northern Ireland, for whom MMT build and maintain their digital needs such as their website and booking services.
+        This allowed me to develop several skill whilst working on the account's <span class="highlight">MVC.NET</span> based tech stack (for more information see the <a class="inline" href="../pages/skills.html">skills</a> page).
+        Along with this, I also took part in monthy "social learning days" with the 5 other placement studets in my cohort. These involved focusing on skills we may not encounter in the day-to-day, and served as a way for us all 
+        to catch up and see how we are all doing.
+      </p>
+    </section>
+
+    <section class="page-section cadet-gray">
+      <h2 id="spitfire"><span class="highlight">Knowledge Transfer Partnership</span></h2>
+      <h3>Spitfire Analytics</h3>
+      <p>
+        During my final year, I applied and was accepted for a 'Knowledge Transfer Partnership' with a business called Spitfire Analytics. Through this, myself and another student worked for 4 months whilst studying, on a proof-of-concept to deliver to the clients.
+        Spitfire Analytics is a business intelligence and data analytics consultancy based in the United Kingdom. The company was founded in 2012 and has since established itself as a leading provider of data-driven insights and solutions to businesses across various industries.
+        Spitfire Analytics provides a range of services, including data strategy and planning, data warehousing and integration, data visualization and reporting, and predictive analytics. They work with clients of all sizes, from small businesses to large corporations, to help them make better-informed decisions based on their data.
+        <br><br>
+        The company has a team of experienced professionals who are experts in their respective fields, including business analysts, data architects, and developers. Spitfire Analytics is known for its customer-focused approach, working closely with clients to understand their specific needs and deliver customized solutions that drive results.
+      </p>
+    </section>
+
+    <section class="page-section slate-gray">
+      <h2><span class="highlight">De Montfort University</span></h2>
+      <h3>Year Three</h3>
+      <ul id="yearThreeList"></ul>
+    </section>
+
+		<footer>
+      <a class="footer-icon" href="https://www.linkedin.com/in/liam-white-aa03951b7/" aria-label="Redirect to my LinkedIn page">
+        <img height="60" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn Icon">
+      </a>
+      <a class="footer-icon" href="https://github.com/liam-m-white" aria-label="Redirect to my GitHub">
+        <img height="60" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github Icon">
+      </a>
+    </footer>
+		<script src="../scripts/global.js"></script>
+	</body>
+</html>

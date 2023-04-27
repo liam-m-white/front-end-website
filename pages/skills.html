@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" class="delay-transition">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Liam White Portfolio</title>
+		<link rel="stylesheet" href="../styles/styles.css">
+	</head>
+
+	<body>
+
+    <button class="control to-top hidden" id="toTop" aria-label="Scroll to the top of the page">
+      &uarr;
+    </button>
+    <button class="control display hidden" id="toggleDisplayControl" aria-label="Toggle between light and dark mode">
+    </button>
+
+    <header class="header">
+      <div class="header-logo-collapse">
+        <a class="header-logo header-item" href="../index.html" aria-label="Logo. Redirect to home page">
+          {liamPortfolio};
+        </a>
+        <button class="header-item header-collapse" id="headerCollapse" aria-label="Open and close navigation menu on mobile">
+          <span class="burger-top burger"><!----></span>
+          <span class="burger-middle burger"><!----></span>
+          <span class="burger-bottom burger"><!----></span>
+        </button>
+      </div>
+      <nav class="header-items" id="headerItems">
+        <a class="header-item" href="../index.html" aria-label="Redirect to home page">Home</a>
+        <div class="header-item">Skills</div>
+        <a class="header-item" href="../pages/timeline.html" aria-label="Redirect to timeline page">Timeline</a>
+        <a class="header-item" href="../pages/contact.html" aria-label="Redirect to contact me page">Contact</a>
+        <button class="header-item" id="toggleDisplay" aria-label="Toggle between light and light mode"></button>
+      </nav>
+    </header>
+
+    <section role="banner" class="banner">
+      <h1>Skills</h1>
+      <h2>A bit of what I can do</h2>
+    </section>
+
+    <div class="skill-container" id="skillContainer"></div>
+    
+    <section class="page-section marian-blue">
+      <h2><span class="highlight">More</span></h2>
+      <div class="flex-section column">
+        <p>
+          The above are just a few of the skills I have developed over time.
+          <br><br>
+          My time at University, at MMT, with Spitfire Analytics and practicing at home has allowed me to expand and enrich my skill-set as a developer.
+          When I return to MMT in May, I will return as an <span class="highlight">Associate Server-Side Engineer</span>, and several of these skills have helped me attain that that title. Firstly,
+          my skills with <span class="highlight">.NET</span>, earned from my Placement Year and my final year project, have given me the knowledge needed of
+          .NET Core and .NET MVC to begin a career in server-side engineering. Secondly, my ability to write <span class="highlight">Java</span> was what gained the interest of the server-side
+          team at MMT, and what got me my placement job in the first place. Finally, my <span class="highlight">Front-End</span> skills (<span class="highlight">HTML</span>, <span class="highlight">CSS</span>, 
+          <span class="highlight">JavaScript</span> and <span class="highlight">React</span>) allowed me to work on the <span class="highlight">Translink</span> website to ensure they meet <span class="highlight">WCAG AA</span> 
+          accessibility compliance.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <a class="footer-icon" href="https://www.linkedin.com/in/liam-white-aa03951b7/" aria-label="Redirect to my LinkedIn page">
+        <img height="60" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn Icon">
+      </a>
+      <a class="footer-icon" href="https://github.com/liam-m-white" aria-label="Redirect to my GitHub">
+        <img height="60" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github Icon">
+      </a>
+    </footer>
+		<script src="../scripts/global.js"></script>
+	</body>
+</html>

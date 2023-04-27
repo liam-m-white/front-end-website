@@ -1,0 +1,46 @@
+{
+  "skills" : [
+    {
+      "title": "Html5",
+      "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "imageAlt": "",
+      "text": "I have strong HTML skills, and am able to create pages and components to fit designs well. I am also familiar with accesibility standards and WCAG guidelines."
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "imageAlt": "",
+      "text": "I have good CSS abilities. I am able to use CSS to style components effectively, and can follow given designs well."
+    },
+    {
+      "title": "JavaScript",
+      "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "imageAlt": "",
+      "text": "My JavaScrips skills are good, and are developing rapidly. I have been using vanilla JavaScript for a reasonably short time, but I can write and understand it well, and am able to use it effectively."
+    },
+    {
+      "title": "React",
+      "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+      "imageAlt": "",
+      "text": "I am currently attempting to learn about the React.js framework. I have seen how powerful a tool React can be, and I am keep to become a competent React developer in the near future."
+    },
+    {
+      "title": "Java",
+      "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg",
+      "imageAlt": "",
+      "text": "I have worked with Java prior to University, and within my University studies and coursework. I have grown comfortable with both Object-Oriented and Functional programming with Java, and have built several practice applications."
+    },
+    {
+      "title": "Version Control",
+      "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      "imageAlt": "",
+      "text": "I am comfortable with version control and have experience with Azure DevOps and GitHub. I am familiar with branching strategies, and have worked on projects using Gitflow."
+    },
+    {
+      "title": "ASP.NET",
+      "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg",
+      "imageAlt": "",
+      "text": "I have experience with both .NET Core and .NET MVC. During my placement year I worked on a client account for approximately 14 months, using MVC .NET. During my final year I have also worked on a project using the .NET Core architecture and have gotten comfortable with it's full stack."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" class="delay-transition">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Liam White Portfolio</title>
+		<link rel="stylesheet" href="../styles/styles.css">
+	</head>
+
+	<body>
+
+    <button class="control to-top hidden" id="toTop" aria-label="Scroll to the top of the page">
+      &uarr;
+    </button>
+    <button class="control display hidden" id="toggleDisplayControl" aria-label="Toggle between light and dark mode">
+    </button>
+
+    <header class="header">
+      <div class="header-logo-collapse">
+        <a class="header-logo header-item" href="../index.html" aria-label="Logo. Redirect to home page">
+          {liamPortfolio};
+        </a>
+        <button class="header-item header-collapse" id="headerCollapse" aria-label="Open and close navigation menu on mobile">
+          <span class="burger-top burger"><!----></span>
+          <span class="burger-middle burger"><!----></span>
+          <span class="burger-bottom burger"><!----></span>
+        </button>
+      </div>
+      <nav class="header-items" id="headerItems">
+        <a class="header-item" href="../index.html" aria-label="Redirect to home page">Home</a>
+        <a class="header-item" href="../pages/skills.html" aria-label="Redirect to skills page">Skills</a>
+        <a class="header-item" href="../pages/timeline.html" aria-label="Redirect to timeline page">Timeline</a>
+        <div class="header-item">Contact</div>
+        <button class="header-item" id="toggleDisplay" aria-label="Toggle between light and light mode"></button>
+      </nav>
+    </header>
+
+    <section role="banner" class="banner">
+      <h1>Contact Me</h1>
+    </section>
+
+    <section class="page-section oxford-blue">
+      <h2><span class="highlight">Get in touch!</span></h2>
+      <p>
+        Feel free to use the form below to contact me with any enquiries you may have, and I will respond as soon as possibly.
+      </p>
+      <p>
+        Alternatively, you can find my LinkedIn and GitHub accounts by following the links at the bottom of the page!
+      </p>
+    </section>
+
+    <div class="page-section">
+      <div class="form-confirmation" id="formConfirmation" hidden>
+        Form submitted successfully!
+      </div>
+
+      <form>
+        <label for="firstName"><span class="mandatory">* </span>First Name</label>
+        <input id="firstName" name="firstName" type="text" required>
+  
+        <label for="lastName"><span class="mandatory">* </span>Last Name</label>
+        <input id="lastName" name="lastName" type="text" required>
+
+        <label for="email"><span class="mandatory">* </span>Email</label>
+        <input id="email" name="email" type="email" required>
+  
+        <label for="organisation">Company/Organisation</label>
+        <input id="organisation" name="organisation" type="text">
+  
+        <label for="message"><span class="mandatory">* </span>Message</label>
+        <textarea id="message" name="message" required></textarea>
+  
+        <button type="submit" class="formSubmit">Submit</button>
+      </form>
+    </div>
+
+    <footer>
+      <a class="footer-icon" href="https://www.linkedin.com/in/liam-white-aa03951b7/" aria-label="Redirect to my LinkedIn page">
+        <img height="60" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn Icon">
+      </a>
+      <a class="footer-icon" href="https://github.com/liam-m-white" aria-label="Redirect to my GitHub">
+        <img height="60" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github Icon">
+      </a>
+    </footer>
+
+    <dialog id="imageDialog">
+      <button id="imageDialogClose" class="dialog-close">close</button>
+    </dialog>
+
+		<script src="../scripts/global.js"></script>
+	</body>  
+</html>
